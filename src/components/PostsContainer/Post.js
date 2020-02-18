@@ -9,7 +9,6 @@ import "./Posts.css";
 // pass props in this file to
 const Post = props => {
   // set up state for the likes
-  console.log(props);
   const [likes, updateLikes] = useState(props.post.likes); 
   const addLike = () => {
     updateLikes (likes => likes + 1);
