@@ -11,7 +11,7 @@ const LikeSection = ({ likes, addLike }) => {
       key="likes-icons-container"
     >
       <div className="like-section-wrapper">
-        <button onClick={addLike}><i className="far fa-heart" /></button>
+        <i className="far fa-heart" onClick={addLike} />
       </div>
       <div className="like-section-wrapper">
         <i className="far fa-comment" />

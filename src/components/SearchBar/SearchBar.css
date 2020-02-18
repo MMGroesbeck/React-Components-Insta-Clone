@@ -15,7 +15,9 @@
   color: #262626;
 }
 .image-wrapper {
+  display: flex;
   height: 50px;
+  align-items: center;
 }
 
 .logo-image {
