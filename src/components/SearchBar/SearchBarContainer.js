@@ -2,7 +2,7 @@
 import React from "react";
 import "./SearchBar.css";
 
-const SearchBar = () => {
+const SearchBar = ({getSearch}) => {
   return (
     <div className="search-bar-wrapper">
       <div className="image-wrapper">
@@ -13,6 +13,7 @@ const SearchBar = () => {
           type="text"
           placeholder="Search"
         />
+        <button type="button">Search</button>
       </form>
       <div className="social-wrapper">
         <div className="social">
